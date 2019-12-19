@@ -1,0 +1,40 @@
+{
+    "name": "cloudflare-logs-to-aws-firehose",
+    "version": "1.0.0",
+    "description": "How to send logs Cloudflare to AWS Firehose",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "İren SALTALI - irensaltali.com <iren@saltali.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0",
+        "@babel/core": "^7.4.5",
+        "@dollarshaveclub/cloudworker": "^0.1.2",
+        "babel-eslint": "^10.0.1",
+        "babel-loader": "^8.0.0",
+        "babel-preset-env": "^1.7.0",
+        "css-loader": "^3.2.1",
+        "eslint": "^6.7.0",
+        "eslint-config-airbnb-base": "14.0.0",
+        "eslint-config-prettier": "^6.7.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-watch": "^6.0.0",
+        "extract-loader": "^3.0.0",
+        "file-loader": "^5.0.0",
+        "mocha": "^6.1.4",
+        "style-loader": "^1.0.0",
+        "typescript": "^3.4.5",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "yarn-run-all": "^3.1.1"
+    },
+    "dependencies": {
+        "aws-signature-v4": "^1.4.0",
+        "js-sha256": "^0.9.0",
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
+}

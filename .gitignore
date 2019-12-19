@@ -1,0 +1,10 @@
+node_modules/
+worker/
+.cargo-ok
+package-lock.json
+/target
+**/*.rs.bk
+Cargo.lock
+bin/
+pkg/
+wasm-pack.log
