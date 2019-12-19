@@ -1,0 +1,1 @@
+# cloudflare-logs-to-aws-firehose
